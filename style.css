@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mother{
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+
+.head{
+    background-color:#291e8a;
+}
+.head img{
+    text-align: center;
+    padding: 10px  0 20px 0;
+    height: 70px;
+}
+
+.menu ul{
+    background-color: #ff0000;
+    padding: 15px ;
+    margin: 0;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 5px;
+}
+.one li:nth-child(even){
+   border-left:1px solid white ;
+   border-right:1px solid white ;
+}
+
+.banner{
+    background: url(./pngtree-simple-creative-background-design-in-the-sky-backgroundcartoonlovelyplanetstarry-skyillustration-backgroundadvertising-image_58694.jpg) top center ;
+    padding: 150px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h6{
+    background-color: green;
+    display: inline-block;
+    padding: 10px 20px;
+}
+ 
+
+.contain  {
+    background: url(./wall.jpg);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.contain h4{
+    background-color: green;
+}
+.contain p {
+    background-color: yellow;
+    color: black;
+    margin-top: 20px;
+    font-size: 10px;
+    width: 540px;
+    text-align: center;
+    display: inline-block;
+}
+.contain h6{
+    background-color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px ;
+}
+
+
+
+.about h4{
+    padding-top: 50px;
+}
+.about{
+    background-color: #4ab75c;
+    color: black;
+}
+.about .div1{
+    width: 660px;
+    text-align: left;
+    display: inline-block;
+    margin-left: -100px;
+    margin-bottom: 50px;
+}
+.about .div1 img{
+    height: 100px;
+    display: inline-block;
+    margin-top: -95px;
+}
+.about .div1 .div3 {
+    display: inline-block;
+    width: 400px;
+    margin-left:100px;
+    margin-top: 70px;
+}
+
+
+.about .div2{
+    width: 630px;
+    text-align: left;
+    display: inline-block;
+    margin-left: -100px;
+}
+.about .div2 img {
+    height: 100px;
+    display: inline-block;
+    margin: -90px 0px 0px 0px;
+}
+.about .div2 .div4 {
+    display: inline-block;
+    width: 325px;
+    margin-left: 100px;
+    margin-top: 70px;
+    padding-bottom: 40px;
+    font-size: 10px;
+}
+p {
+    font-size: 10px;
+}
+
+.footer{
+    background: #2c1a8e;
+}
+.footer .foot li {
+    display: inline-block;
+    padding: 27px 8px;
+}
+.footer .foot li a{
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
